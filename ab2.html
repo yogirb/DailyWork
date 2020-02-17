@@ -1,0 +1,32 @@
+
+<html>
+<body>
+
+
+
+<button onclick="myFunction()">push</button>
+<button onclick="abc()">pop</button>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.push("Kiwi");
+  document.getElementById("demo").innerHTML = fruits;
+  
+  
+}
+function abc() {
+  fruits.pop();
+  document.getElementById("demo").innerHTML = fruits;
+  
+  
+}
+
+</script>
+
+</body>
+</html>
